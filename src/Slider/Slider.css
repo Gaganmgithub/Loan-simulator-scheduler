@@ -1,0 +1,43 @@
+/* Slider container */
+.slider-container {
+    width: 80%; /* Set the width of the container */
+    margin: 20px auto; /* Center the container */
+}
+
+/* Slider input */
+.slider {
+    width: 100%; /* Set the width of the slider */
+    -webkit-appearance: none; /* Remove default styles */
+    appearance: none;
+    height: 10px; /* Set the height of the slider */
+    border-radius: 5px; /* Set the border radius */
+    background: #d3d3d3; /* Set the background color */
+    outline: none; /* Remove outline */
+}
+
+/* Slider thumb */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styles */
+    appearance: none;
+    width: 20px; /* Set the width of the thumb */
+    height: 20px; /* Set the height of the thumb */
+    border-radius: 50%; /* Set the border radius to make it round */
+    background: #4caf50; /* Set the color of the thumb */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.slider::-moz-range-thumb {
+    width: 20px; /* Set the width of the thumb */
+    height: 20px; /* Set the height of the thumb */
+    border-radius: 50%; /* Set the border radius to make it round */
+    background: #4caf50; /* Set the color of the thumb */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Value display */
+.slider-container span {
+    display: block; /* Display the value below the slider */
+    text-align: center; /* Center the value */
+    margin-top: 10px; /* Add some space between the slider and the value */
+    font-size: 16px; /* Set the font size of the value */
+}

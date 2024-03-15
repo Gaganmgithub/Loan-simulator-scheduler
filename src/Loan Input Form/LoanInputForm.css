@@ -1,0 +1,155 @@
+.inputForm-container{
+    width: auto;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(145, 37%, 71%)
+}
+
+
+.inputForm-container h2{
+    text-align: center;
+    font-style: italic;
+    border-bottom: 1px solid hsl(0, 0%, 0%);
+    padding-bottom: 5px; /* Optional: Add some space between the text and the underline */    
+}
+
+.inputForm-container label {
+    font-weight: bold;
+}
+
+
+.input-loanAmount,
+.input-interestRate,
+.input-loanTerm,
+.input-startDate {
+    padding: 15px;
+   
+}
+
+
+.inputForm-container button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: hsl(122, 39%, 49%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.inputForm-container button:hover {
+    background-color: hsl(123, 50%, 16%);
+}
+
+.input-body{
+    /* border: 1px solid hsl(0, 0%, 0%); */
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.input-form{
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%);
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    max-width: 40%;
+    display: inline-block;
+    background: linear-gradient(90deg, #e28067, #d8a278, #afa162, #78bbaf, #799ee4);
+}
+
+.calculation-summary{
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%);
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    max-width: 35%;
+    box-shadow: hsl(122, 39%, 49%);
+    display: inline-block;
+    /* display: table-column-group; */
+    background: linear-gradient(90deg, #e28067, #d8a278, #afa162, #78bbaf, #799ee4);
+}
+
+
+.calculation-details p {
+    transition: transform 0.3s ease;
+}
+
+.calculation-details p:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+
+/* Slider input */
+.input-slider {
+    margin-top: 20px;
+    width: 100%; /* Set the width of the slider to 100% */
+    -webkit-appearance: none; /* Remove default styles */
+    appearance: none;
+    height: 10px; /* Set the height of the slider */
+    border-radius: 5px; /* Set the border radius */
+    background: hsl(0, 0%, 83%); /* Set the background color */
+    outline: none; /* Remove outline */
+}
+
+/* Slider thumb */
+.input-slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styles */
+    appearance: none;
+    width: 20px; /* Set the width of the thumb */
+    height: 20px; /* Set the height of the thumb */
+    border-radius: 50%; /* Set the border radius to make it round */
+    background: hsl(122, 39%, 49%); /* Set the color of the thumb */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.input-slider::-moz-range-thumb {
+    width: 20px; /* Set the width of the thumb */
+    height: 20px; /* Set the height of the thumb */
+    border-radius: 50%; /* Set the border radius to make it round */
+    background: hsl(122, 39%, 49%); /* Set the color of the thumb */
+    cursor: pointer; /* Change cursor to pointer */
+
+}
+
+
+/* .payment-breakup-chart{
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%);
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    max-width: auto;
+    display: inline-block;
+} */
+
+.payment-breakup-chart {
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%);
+    padding: 10px; /* Reduce padding */
+    margin: 10px;
+    text-align: left;
+    max-width: fit-content; /* Adjust max-width */
+    /* cursor: pointer; */
+    display: inline-block;
+    background: linear-gradient(90deg, #e28067, #d8a278, #afa162, #78bbaf, #799ee4);
+}
+
+
+
+
+
